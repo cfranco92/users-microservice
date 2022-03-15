@@ -1,7 +1,7 @@
 const user = require('../components/user/network');
 
 const routes = function (server) {
-    server.use('/user', user);
+    server.use('/api/v1/users', user);
 }
 
 module.exports = routes;
